@@ -1,0 +1,10 @@
+# Python cache (DO NOT upload)
+__pycache__/
+*.pyc
+
+# Virtual environment (DO NOT upload)
+venv/
+.env/
+
+# Streamlit secrets (DO NOT upload)
+.streamlit/secrets.toml
