@@ -1,4 +1,3 @@
-Here is a **clean plain-text README** you can paste directly into `README.md`.
 
 ---
 
