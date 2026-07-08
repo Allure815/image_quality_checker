@@ -14,7 +14,7 @@ Input: any uploaded image → Output: Good / Medium (uncertain) / Low quality wi
 ---
 
 
-⚙️ Key Features
+**⚙️ Key Features**
 
 
 🧠 Custom CNN (Conv2D → MaxPooling → Dense → Dropout) trained from scratch in TensorFlow/Keras
@@ -22,6 +22,8 @@ Input: any uploaded image → Output: Good / Medium (uncertain) / Low quality wi
 📊 Confidence-scored prediction rather than a flat yes/no label
 🎨 Simple drag-and-drop Gradio interface for instant testing
 ⚡ Fast local inference, no GPU required
+
+----
 
 
 
@@ -97,15 +99,15 @@ bash# Clone
 git clone https://github.com/Allure815/image_quality_checker.git
 cd image_quality_checker
 
-# Create and activate a virtual environment
+**Create and activate a virtual environment**
 python -m venv venv
 venv\Scripts\activate      # Windows
-# source venv/bin/activate  # macOS/Linux
+**source** venv/bin/activate  # macOS/Linux
 
-# Install dependencies
+**Install dependencies**
 pip install -r requirements.txt
 
-# Run the app
+**Run the app**
 python app.py
 
 
